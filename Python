@@ -1,0 +1,53 @@
+class Solution:
+
+    def singleNumber(self, nums: List[int]) -> int:
+
+        res=0
+
+        for n in nums:
+
+            res=n^res
+
+        return res
+
+        
+
+OUTPUT:
+
+Your input
+
+[2,2,1]
+
+Output
+
+1
+
+Expected
+
+1
+
+[20/05, 10:01 pm] Pavan Adc: a=11
+
+b=21
+
+print(a&b)
+
+print(a|b)
+
+print(a^b)
+
+print(a&1)
+
+print(b&1)
+
+OUTPUT:
+
+1
+
+31
+
+30
+
+1
+
+1
